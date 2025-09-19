@@ -1,11 +1,11 @@
-# 🎥 OCI Vision Video Analysis
+# OCI Vision Video Analysis
 
 An interactive **Streamlit app** to explore [OCI Vision Video Analysis](https://www.oracle.com/in/artificial-intelligence/vision/) results.  
 It visualizes **detections, bounding boxes, OCR text, and labels** at the **frame level** with an easy UI.
 
 ---
 
-## ✨ Features
+## Features
 - Upload a **video** and its **OCI Vision Video Job JSON**
 - Frame-by-frame annotated viewer
 - **Stepper**: jump to next/previous detection, label, or specific class
@@ -21,7 +21,7 @@ It visualizes **detections, bounding boxes, OCR text, and labels** at the **fram
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Make sure you have **Python 3.9+** installed.
 
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the App
+## Run the App
 
 ```bash
 streamlit run app.py
@@ -41,7 +41,7 @@ streamlit run app.py
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -52,7 +52,7 @@ streamlit run app.py
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Start the app:
    ```bash
@@ -67,7 +67,7 @@ streamlit run app.py
 
 ---
 
-## 📊 Example Workflow
+## Example Workflow
 - Upload `video.mp4` and its `video_job.json`
 - Use the **confidence slider** to adjust detection threshold
 - Filter by object class (`Human face`, `Cake`, etc.)
@@ -77,12 +77,9 @@ streamlit run app.py
 
 ---
 
-## ⚡ Notes
+## Notes
 - OpenCV (`opencv-python`) is optional. Without it, frames will be blank canvases with overlays only.
 - Altair is optional for the timeline chart.
 - Tested on **Python 3.9–3.11** with the pinned dependencies in `requirements.txt`.
 
 ---
-
-## 📜 License
-MIT License
